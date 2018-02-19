@@ -103,9 +103,7 @@ Head 4
 *强调1*  
 _强调2_  
 **强调3**  
-__强调4__  
-***强调5***  
-___强调6___  
+__强调4__   
 但如果*和_两边都有空白的话，就只会被当成普通的符号
 ###代码
 如果要标记一小段行内代码，可以用方括号包起来如：
@@ -118,8 +116,9 @@ ___强调6___
   
 参考式：
 >![Alt text][id]
+>>[id]: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1518889977316&di=01adee49f1266ae57bfa70b75d1a5eba&imgtype=0&src=http%3A%2F%2Fp4.gexing.com%2Fshaitu%2F20120729%2F1056%2F5014a66cc640c.jpg "草帽海贼团"
 >**[id]:URL/to/image "Optional title attribute"**
->[id]: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1518889977316&di=01adee49f1266ae57bfa70b75d1a5eba&imgtype=0&src=http%3A%2F%2Fp4.gexing.com%2Fshaitu%2F20120729%2F1056%2F5014a66cc640c.jpg "草帽海贼团"
+
 
 要改变大小需要用HTML语言。如：
 <img src="01.jpg" width=256 height=256/>
